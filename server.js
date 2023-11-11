@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 4000;
-
+#form-us is database name you can change it according to your database name
 mongoose.connect('mongodb://127.0.0.1:27017/form-us', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
